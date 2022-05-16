@@ -1,8 +1,10 @@
 ### Hi there 👋
 
-|stats|langs|
-|---|---|
-|[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=cygra)](https://github.com/anuraghazra/github-readme-stats)|![](https://raw.githubusercontent.com/Cygra/github-stats/master/generated/languages.svg#gh-light-mode-only)|
+<hr />
+
+[![](https://github-readme-stats.vercel.app/api?username=cygra)](https://github.com/anuraghazra/github-readme-stats)
+
+[![](https://raw.githubusercontent.com/Cygra/github-stats/master/generated/languages.svg#gh-light-mode-only)](https://github.com/jstrieb/github-stats)
 
 <br />
 
