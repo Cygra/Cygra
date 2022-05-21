@@ -6,8 +6,6 @@
 
 [![](https://raw.githubusercontent.com/Cygra/github-stats/master/generated/languages.svg#gh-light-mode-only)](https://github.com/jstrieb/github-stats)
 
-Repos I starred: 
-
 [![](https://raw.githubusercontent.com/Cygra/star-list/master/topTopics.svg)](https://github.com/Cygra/star-list)
 
 <br />
