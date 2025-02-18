@@ -4,7 +4,7 @@
 
 ### My Projects
 
-![TypeScript](https://img.shields.io/badge/typescript-black?style=for-the-badge&logo=typescript)
+![TypeScript](https://img.shields.io/badge/typescript-black?style=for-the-badge&logo=typescript) ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 
 - 📅 [date-format-wareki](https://github.com/Cygra/date-format-wareki): TypeScript 向け<b>和暦<=>西暦変換</b>。西暦 645 年（大化元年）以降<b>全元号対応</b>。
 
