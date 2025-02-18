@@ -8,9 +8,11 @@
 
 - 📅 [date-format-wareki](https://github.com/Cygra/date-format-wareki): TypeScript 向け<b>和暦<=>西暦変換</b>。西暦 645 年（大化元年）以降<b>全元号対応</b>。
 
-- 👌 [Hand Gesture Whiteboard](https://github.com/Cygra/hand-gesture-whiteboard): Using <b>Mediapipe</b> and <b>Next.js</b> to detect hand gesture and draw lines like a whiteboard.article as jpeg file. [👉Demo](https://cygra.github.io/hand-gesture-whiteboard/)
+- 👌 [Hand Gesture Whiteboard](https://github.com/Cygra/hand-gesture-whiteboard): Using <b>Mediapipe</b> and <b>Next.js</b> to detect hand gesture and draw lines like a whiteboard.article as jpeg file. | [👉Demo](https://cygra.github.io/hand-gesture-whiteboard/)
 
-- 🎥 [Danmaku Mask](https://github.com/Cygra/danmaku-mask): 基于 <b>Next.js</b> 和 <b>Mediapipe</b> 实现的模拟 <b>Bilibili 实时防挡脸弹幕</b>效果。 A simulation of <b>Bilibili's real-time face-masked danmaku effect</b> based on <b>Next.js</b> and <b>Mediapipe</b>. [👉Demo](https://github.com/Cygra/danmaku-mask)
+- 🎥 [Danmaku Mask](https://github.com/Cygra/danmaku-mask): 基于 <b>Next.js</b> 和 <b>Mediapipe</b> 实现的模拟 <b>Bilibili 实时防挡脸弹幕</b>效果。 A simulation of <b>Bilibili's real-time face-masked danmaku effect</b> based on <b>Next.js</b> and <b>Mediapipe</b>. | [👉Demo](https://github.com/Cygra/danmaku-mask)
+
+- 🕕 [Minute Repeater Online](https://github.com/Cygra/minute-repeater-online): Enjoy the pleasure of minute repeater online! | [What is minute repeater?](https://en.wikipedia.org/wiki/Repeater_(horology)) | [How To Tell The Time From Minute Repeater](https://youtu.be/roRceZjwnS8?si=2lNcZ4pG8o1onJWf)
 
 ![Python](https://img.shields.io/badge/python-yellow?style=for-the-badge&logo=python)
 
