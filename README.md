@@ -1,4 +1,4 @@
-![](https://profile-calendar.vercel.app/image)
+![](https://profile-calendar.vercel.app/image?textColor=white&bgColor=black)
 
 ### Hi there 👋
 
