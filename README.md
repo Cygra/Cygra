@@ -3,9 +3,7 @@
 ### Hi there 👋
 
 ![](https://komarev.com/ghpvc/?username=Cygra&color=blue)
-<a href="https://wakatime.com/@a75b8e72-1048-4990-bee6-69cc2c785ed9">
-  <img src="https://wakatime.com/badge/user/a75b8e72-1048-4990-bee6-69cc2c785ed9.svg" alt="Total time coded since Fed 20 2025" />
-</a>
+![[](https://wakatime.com/@86233be0-b285-4ecc-bcb4-3aef691e1b50)](https://wakatime.com/badge/user/86233be0-b285-4ecc-bcb4-3aef691e1b50.svg)
 
 ### My Projects
 
