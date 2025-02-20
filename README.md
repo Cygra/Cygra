@@ -16,6 +16,10 @@
 
 - 🕕 [Minute Repeater Online](https://github.com/Cygra/minute-repeater-online): Enjoy the pleasure of minute repeater online! | [What is minute repeater?](https://en.wikipedia.org/wiki/Repeater_(horology)) | [How To Tell The Time From Minute Repeater](https://youtu.be/roRceZjwnS8?si=2lNcZ4pG8o1onJWf)
 
+![JavaScript](https://img.shields.io/badge/javascript-blue?style=for-the-badge&logo=javascript)
+
+- 📅 [Profile Calendar](https://github.com/Cygra/profile-calendar): This project provides an api that serves a image file, of which the content is the date of the current day.
+
 ![Python](https://img.shields.io/badge/python-yellow?style=for-the-badge&logo=python)
 
 - 📚 [Wechat Article Downloader](https://github.com/Cygra/wechat-article-dl): 微信公众号文章下载，生成图片保存到本地。Download Wechat Official Accounts article as jpeg file.
