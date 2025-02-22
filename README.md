@@ -7,9 +7,13 @@
 
 ### My Projects
 
-![TypeScript](https://img.shields.io/badge/typescript-black?style=for-the-badge&logo=typescript) ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-black?style=for-the-badge&logo=typescript) 
 
 - 📅 [date-format-wareki](https://github.com/Cygra/date-format-wareki): 🇯🇵 TypeScript 向け<b>和暦<=>西暦変換</b>。西暦 645 年（大化元年）以降<b>全元号対応</b>。
+
+- 🗓️ [Profile Calendar](https://github.com/Cygra/profile-calendar): Put the current date on your github profile (as you can see on the top of this page)!
+
+![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 
 - 👌 [Hand Gesture Whiteboard](https://github.com/Cygra/hand-gesture-whiteboard): Using <b>Mediapipe</b> and <b>Next.js</b> to detect hand gesture and draw lines like a whiteboard.article as jpeg file. | [👉Demo](https://cygra.github.io/hand-gesture-whiteboard/)
 
@@ -18,8 +22,6 @@
 - 🕕 [Minute Repeater Online](https://github.com/Cygra/minute-repeater-online): Enjoy the pleasure of minute repeater online! | [What is minute repeater?](https://en.wikipedia.org/wiki/Repeater_(horology)) | [How To Tell The Time From Minute Repeater](https://youtu.be/roRceZjwnS8?si=2lNcZ4pG8o1onJWf)
 
 ![JavaScript](https://img.shields.io/badge/javascript-blue?style=for-the-badge&logo=javascript)
-
-- 📅 [Profile Calendar](https://github.com/Cygra/profile-calendar): This project provides an api that serves a image file, of which the content is the date of the current day.
 
 ![Python](https://img.shields.io/badge/python-yellow?style=for-the-badge&logo=python)
 
