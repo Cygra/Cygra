@@ -21,7 +21,7 @@
 
 - 🕕 [Minute Repeater Online](https://github.com/Cygra/minute-repeater-online): Enjoy the pleasure of minute repeater online! | [What is minute repeater?](https://en.wikipedia.org/wiki/Repeater_(horology)) | [How To Tell The Time From Minute Repeater](https://youtu.be/roRceZjwnS8?si=2lNcZ4pG8o1onJWf)
 
-![JavaScript](https://img.shields.io/badge/javascript-blue?style=for-the-badge&logo=javascript)
+<!-- ![JavaScript](https://img.shields.io/badge/javascript-blue?style=for-the-badge&logo=javascript) -->
 
 ![Python](https://img.shields.io/badge/python-yellow?style=for-the-badge&logo=python)
 
