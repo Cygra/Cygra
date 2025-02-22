@@ -1,4 +1,4 @@
-[![](https://profile-calendar.vercel.app/image?font=juicy-fills&bgColor=pink)](https://github.com/Cygra/profile-calendar)
+[![](https://profile-calendar.vercel.app/image?font=juicy-fills&bgColor=pink&width=1920&height=200&fontSize=100&radius=16)](https://github.com/Cygra/profile-calendar)
 
 ### Hi there 👋
 
