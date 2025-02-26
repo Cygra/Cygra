@@ -21,6 +21,8 @@
 
 ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 
+- 🤖 [Chat Markmap](https://github.com/Cygra/chat-markmap): Combines ai chats with Markmap, using Next.js. Generate <b>mindmap</b> from the <b>ai</b> response in real-time.
+
 - 👌 [Hand Gesture Whiteboard](https://github.com/Cygra/hand-gesture-whiteboard): Using <b>Mediapipe</b> and <b>Next.js</b> to detect hand gesture and draw lines like a whiteboard.article as jpeg file. | [👉Demo](https://cygra.github.io/hand-gesture-whiteboard/)
 
 - 🎥 [Danmaku Mask](https://github.com/Cygra/danmaku-mask): 基于 <b>Next.js</b> 和 <b>Mediapipe</b> 实现的模拟 <b>Bilibili 实时防挡脸弹幕</b>效果。 A simulation of <b>Bilibili's real-time face-masked danmaku effect</b> based on <b>Next.js</b> and <b>Mediapipe</b>. | [👉Demo](https://github.com/Cygra/danmaku-mask)
