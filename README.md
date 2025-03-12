@@ -42,6 +42,10 @@
 
 - ✂️ [Klip](https://github.com/Cygra/Klip): Klip is an open source, offline software that helps you manage and access your recent copy history. It records the latest 10 items in your clipboard. With Klip, you can quickly access code, formatted text, phone number, address, and even image you copied just minutes ago and paste them again.
 
+![Bash](https://img.shields.io/badge/bash-green?style=for-the-badge&logo=bash)
+
+- 🍺 [morning-coffee-night-beer](https://github.com/Cygra/morning-coffee-night-beer): This plugin automatically prefixes your Git commit messages with ☕️ or 🍺.
+
 ![](https://raw.githubusercontent.com/Cygra/github-stats/master/generated/overview.svg#gh-dark-mode-only)
 ![](https://raw.githubusercontent.com/Cygra/github-stats/master/generated/overview.svg#gh-light-mode-only)
 ![](https://raw.githubusercontent.com/Cygra/github-stats/master/generated/languages.svg#gh-dark-mode-only)
