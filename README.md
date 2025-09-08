@@ -46,6 +46,10 @@
 
 - 🍺 [morning-coffee-night-beer](https://github.com/Cygra/morning-coffee-night-beer): This plugin automatically prefixes your Git commit messages with ☕️ or 🍺.
 
+**Others**
+
+- 🚗 [沪牌拍卖价格走势](https://github.com/Cygra/shanghai-vehicle-license-price-trend): 每月更新的汽车牌照拍卖价格走势（更新到 2025.08）
+
 ![](https://raw.githubusercontent.com/Cygra/github-stats/master/generated/overview.svg#gh-dark-mode-only)
 ![](https://raw.githubusercontent.com/Cygra/github-stats/master/generated/overview.svg#gh-light-mode-only)
 ![](https://raw.githubusercontent.com/Cygra/github-stats/master/generated/languages.svg#gh-dark-mode-only)
