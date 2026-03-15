@@ -14,6 +14,10 @@
 
 ### My Projects
 
+![Claude Code](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
+
+- 🗜️ [minimax-usage](https://github.com/Cygra/minimax-usage): 查询 MiniMax 模型 API 使用量的 Claude Code Skill。
+
 ![TypeScript](https://img.shields.io/badge/typescript-black?style=for-the-badge&logo=typescript) 
 
 - 📅 [date-format-wareki](https://github.com/Cygra/date-format-wareki): 🇯🇵 TypeScript 向け<b>和暦<=>西暦変換</b>。西暦 645 年（大化元年）以降<b>全元号対応</b>。
