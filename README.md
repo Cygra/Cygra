@@ -17,9 +17,9 @@
 | [Steeplechase](https://github.com/Cygra/Steeplechase) | 自动跳转中间页链接，直达目标地址 |  |
 | [shanghai-vehicle-license-price-trend](https://github.com/Cygra/shanghai-vehicle-license-price-trend) | 沪牌拍卖价格走势（更新到 2025.11） |  |
 | [claude-code-agent-teams-connect-four](https://github.com/Cygra/claude-code-agent-teams-connect-four) | Let teammates in Claude Code Agent teams play Connect Four with each other. |  |
+| [Cygra](https://github.com/Cygra/Cygra) | :octocat: Cygra Github Profile |  |
 | [google-map-cn-correction](https://github.com/Cygra/google-map-cn-correction) | 修正谷歌地图在中国大陆地区（GCJ-02 坐标系）的偏移。Fix the offset of Goolgle map in mainland China. |  |
 | [feishu-avatar-generator](https://github.com/Cygra/feishu-avatar-generator) | 飞书群头像生成器，不受 4 个字的长度限制 |  |
-| [Cygra](https://github.com/Cygra/Cygra) | :octocat: Cygra Github Profile |  |
 | [claude-code-agent-teams-tic-tac-toe](https://github.com/Cygra/claude-code-agent-teams-tic-tac-toe) | Let teammates in Claude Code Agent teams play Tic Tac Toe with each other. |  |
 | [minute-repeater-online](https://github.com/Cygra/minute-repeater-online) | Enjoy the pleasure of minute repeater online! |  |
 | [n8n-workflows](https://github.com/Cygra/n8n-workflows) | My n8n workflows. |  |
@@ -32,7 +32,7 @@
 |:-----------|:------------|:-------|--------:|
 | [star-list](https://github.com/Cygra/star-list) | Render all my starred repos in README.md. Auto-sync every 7 days, based on Github Actions. |  | **168** |
 | [github-stats](https://github.com/Cygra/github-stats) | Forked from https://github.com/jstrieb/github-stats |  | **93** |
-| [Cygra](https://github.com/Cygra/Cygra) | :octocat: Cygra Github Profile |  | **31** |
+| [Cygra](https://github.com/Cygra/Cygra) | :octocat: Cygra Github Profile |  | **32** |
 | [shanghai-vehicle-license-price-trend](https://github.com/Cygra/shanghai-vehicle-license-price-trend) | 沪牌拍卖价格走势（更新到 2025.11） |  | **18** |
 | [minute-repeater-online](https://github.com/Cygra/minute-repeater-online) | Enjoy the pleasure of minute repeater online! |  | **17** |
 | [wechat-article-dl](https://github.com/Cygra/wechat-article-dl) | 微信公众号文章下载，生成图片保存到本地。图形化操作，无需登录，纯本地运行。 \\| Download Wechat Official Accounts article as jpeg file. | <kbd>nodejs</kbd> <kbd>puppeteer</kbd> <kbd>vite</kbd> <kbd>wechat</kbd> | **16** |
