@@ -1,13 +1,8 @@
-[![](https://profile-calendar.vercel.app/image?font=juicy-fills&bgColor=pink&width=1920&height=200&fontSize=100&radius=16)](https://github.com/Cygra/profile-calendar)
-
 <h3 align="center"> Hi there 👋 </h3>
 <h3 align="center"> I write interesting toys and tools. </h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Cygra&color=blue"></img>
-  <a href="https://wakatime.com/@86233be0-b285-4ecc-bcb4-3aef691e1b50">
-    <img src="https://wakatime.com/badge/user/86233be0-b285-4ecc-bcb4-3aef691e1b50.svg"></img>
-  </a>
 </p>
 
 ---
