@@ -11,10 +11,7 @@
 
 | Repository | Description | Topics |
 |:-----------|:------------|:-------|
-| [star-list](https://github.com/Cygra/star-list) | Render all my starred repos in README.md. Auto-sync every 7 days, based on Github Actions. |  |
-| [github-stats](https://github.com/Cygra/github-stats) | Forked from https://github.com/jstrieb/github-stats |  |
 | [leetcode-agent](https://github.com/Cygra/leetcode-agent) | 自动刷 LeetCode 的 Agent，AI 生成代码并自动提交 |  |
-| [Cygra](https://github.com/Cygra/Cygra) | :octocat: Cygra Github Profile |  |
 | [Steeplechase](https://github.com/Cygra/Steeplechase) | 自动跳转中间页链接，直达目标地址 | <kbd>browser-extension</kbd> <kbd>extension-chrome</kbd> |
 | [shanghai-vehicle-license-price-trend](https://github.com/Cygra/shanghai-vehicle-license-price-trend) | 沪牌拍卖价格走势（更新到 2026.02） |  |
 | [claude-code-agent-teams-connect-four](https://github.com/Cygra/claude-code-agent-teams-connect-four) | Let teammates in Claude Code Agent teams play Connect Four with each other. | <kbd>claude-code</kbd> |
@@ -30,9 +27,6 @@
 
 | Repository | Description | Topics | Commits |
 |:-----------|:------------|:-------|--------:|
-| [star-list](https://github.com/Cygra/star-list) | Render all my starred repos in README.md. Auto-sync every 7 days, based on Github Actions. |  | **168** |
-| [github-stats](https://github.com/Cygra/github-stats) | Forked from https://github.com/jstrieb/github-stats |  | **93** |
-| [Cygra](https://github.com/Cygra/Cygra) | :octocat: Cygra Github Profile |  | **34** |
 | [shanghai-vehicle-license-price-trend](https://github.com/Cygra/shanghai-vehicle-license-price-trend) | 沪牌拍卖价格走势（更新到 2026.02） |  | **18** |
 | [minute-repeater-online](https://github.com/Cygra/minute-repeater-online) | Enjoy the pleasure of minute repeater online! |  | **17** |
 | [wechat-article-dl](https://github.com/Cygra/wechat-article-dl) | 微信公众号文章下载，生成图片保存到本地。图形化操作，无需登录，纯本地运行。 \\| Download Wechat Official Accounts article as jpeg file. | <kbd>nodejs</kbd> <kbd>puppeteer</kbd> <kbd>vite</kbd> <kbd>wechat</kbd> | **16** |
@@ -40,6 +34,9 @@
 | [leetcode-agent](https://github.com/Cygra/leetcode-agent) | 自动刷 LeetCode 的 Agent，AI 生成代码并自动提交 |  | **12** |
 | [danmaku-mask](https://github.com/Cygra/danmaku-mask) | 基于 Next.js 和 Mediapipe 实现的模拟 Bilibili 实时防挡脸弹幕效果。  A simulation of Bilibili's real-time face-masked danmaku effect based on Next.js and Mediapipe. | <kbd>bilibili</kbd> <kbd>googleai</kbd> <kbd>machinelearning</kbd> <kbd>mediapipe</kbd> <kbd>nextjs</kbd> | **10** |
 | [zenn-content](https://github.com/Cygra/zenn-content) | — |  | **10** |
+| [hand-gesture-whiteboard](https://github.com/Cygra/hand-gesture-whiteboard) | Using Mediapipe and Nextjs to detect hand gesture and draw lines like a whiteboard. | <kbd>mediapipe</kbd> <kbd>nextjs</kbd> <kbd>machinelearning</kbd> <kbd>mediapipe-hand</kbd> <kbd>whiteboard</kbd> | **9** |
+| [Steeplechase](https://github.com/Cygra/Steeplechase) | 自动跳转中间页链接，直达目标地址 | <kbd>browser-extension</kbd> <kbd>extension-chrome</kbd> | **8** |
+| [Klip](https://github.com/Cygra/Klip) | Klip is an open source, offline software that helps you manage and access your recent copy history.  It records the latest 10 items in your clipboard.  With Klip, you can quickly access code, formatted text, phone number, address, and even image you copied just minutes ago and paste them again. |  | **7** |
 
 ---
 
