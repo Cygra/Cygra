@@ -58,7 +58,7 @@ TOP10_ROWS=$(printf '%s' "$RESULT" | jq -r '
       tags: (.repositoryTopics.nodes | map("<kbd>\(.topic.name)</kbd>") | join(" ")),
       n:    (.defaultBranchRef.target.c2024.totalCount // 0)
     })
-  | map(select(.n > 0))
+  | map(select(.n > 0 and .name != "star-list" and .name != "github-stats" and .name != "Cygra"))
   | sort_by(-.n)
   | .[0:10]
   | map("| [\(.name)](\(.url)) | \(.desc) | \(.tags) | **\(.n)** |")
@@ -75,7 +75,7 @@ RECENT_ROWS=$(printf '%s' "$RESULT" | jq -r '
       tags: (.repositoryTopics.nodes | map("<kbd>\(.topic.name)</kbd>") | join(" ")),
       n:    (.defaultBranchRef.target.c6m.totalCount // 0)
     })
-  | map(select(.n > 0))
+  | map(select(.n > 0 and .name != "star-list" and .name != "github-stats" and .name != "Cygra"))
   | sort_by(-.n)
   | map("| [\(.name)](\(.url)) | \(.desc) | \(.tags) |")
   | .[]
