@@ -114,6 +114,8 @@ jobs:
 
           # URL-encode the repo slugs (replace , with %2C)
           SLUGS_ENCODED=$(printf '%s' "$TOP10_SLUGS" | sed 's/,/%2C/g')
+          # Full URL-encode for href (replace / with %2F in addition to , with %2C)
+          SLUGS_HREF=$(printf '%s' "$SLUGS_ENCODED" | sed 's/\//%2F/g')
 
           # Append dynamic sections
           {
@@ -137,8 +139,13 @@ jobs:
             printf '![](https://raw.githubusercontent.com/Cygra/github-stats/master/generated/languages.svg#gh-dark-mode-only)\n'
             printf '![](https://raw.githubusercontent.com/Cygra/github-stats/master/generated/languages.svg#gh-light-mode-only)\n'
             printf '\n'
-            printf '[![Star History Chart](https://api.star-history.com/image?repos=%s&type=date&legend=top-left)](https://www.star-history.com/?repos=%s&type=date&legend=top-left)\n' \
-              "$SLUGS_ENCODED" "$SLUGS_ENCODED"
+            printf '<a href="https://www.star-history.com/?repos=%s&type=date&legend=top-left">\n' "$SLUGS_HREF"
+            printf ' <picture>\n'
+            printf '   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=%s&type=date&theme=dark&legend=top-left" />\n' "$SLUGS_ENCODED"
+            printf '   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=%s&type=date&legend=top-left" />\n' "$SLUGS_ENCODED"
+            printf '   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=%s&type=date&legend=top-left" />\n' "$SLUGS_ENCODED"
+            printf ' </picture>\n'
+            printf '</a>\n'
           } >> "$TMP"
 
           mv "$TMP" "$README"
