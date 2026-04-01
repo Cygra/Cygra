@@ -1,0 +1,158 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Every Sunday at 00:00 UTC
+  workflow_dispatch:       # Allow manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          GITHUB_USER="Cygra"
+          README="README.md"
+
+          SINCE_6M=$(date -u -d '6 months ago' +%Y-%m-%dT%H:%M:%SZ)
+          SINCE_2024="2024-01-01T00:00:00Z"
+
+          QUERY='query($login: String!, $since2024: GitTimestamp!, $since6m: GitTimestamp!) {
+            user(login: $login) {
+              repositories(first: 100, ownerAffiliations: OWNER, privacy: PUBLIC, isFork: false, isArchived: false) {
+                nodes {
+                  name
+                  url
+                  description
+                  repositoryTopics(first: 8) {
+                    nodes { topic { name } }
+                  }
+                  defaultBranchRef {
+                    target {
+                      ... on Commit {
+                        c2024: history(since: $since2024) { totalCount }
+                        c6m:   history(since: $since6m)   { totalCount }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }'
+
+          echo "🔍 Fetching repository data from GitHub..."
+          RESULT=$(gh api graphql \
+            -f query="$QUERY" \
+            -f login="$GITHUB_USER" \
+            -f since2024="$SINCE_2024" \
+            -f since6m="$SINCE_6M")
+
+          # Top 10 repos by commit count since 2024-01-01
+          TOP10_ROWS=$(printf '%s' "$RESULT" | jq -r '
+            .data.user.repositories.nodes
+            | map({
+                name: .name,
+                url:  .url,
+                desc: ((.description // "") | gsub("\\|"; "\\\\|") | if . == "" then "—" else . end),
+                tags: (.repositoryTopics.nodes | map("<kbd>\(.topic.name)</kbd>") | join(" ")),
+                n:    (.defaultBranchRef.target.c2024.totalCount // 0)
+              })
+            | map(select(.n > 0 and .name != "star-list" and .name != "github-stats" and .name != "Cygra"))
+            | sort_by(-.n)
+            | .[0:10]
+            | map("| [\(.name)](\(.url)) | \(.desc) | \(.tags) | **\(.n)** |")
+            | .[]
+          ')
+
+          # Extract top 10 repo slugs (owner/repo) for the Star History chart
+          TOP10_SLUGS=$(printf '%s' "$RESULT" | jq -r '
+            .data.user.repositories.nodes
+            | map({
+                name: .name,
+                url:  .url,
+                n:    (.defaultBranchRef.target.c2024.totalCount // 0)
+              })
+            | map(select(.n > 0 and .name != "star-list" and .name != "github-stats" and .name != "Cygra"))
+            | sort_by(-.n)
+            | .[0:10]
+            | map(.url | ltrimstr("https://github.com/"))
+            | join(",")
+          ')
+
+          # All repos with commits in the last 6 months, sorted by activity
+          RECENT_ROWS=$(printf '%s' "$RESULT" | jq -r '
+            .data.user.repositories.nodes
+            | map({
+                name: .name,
+                url:  .url,
+                desc: ((.description // "") | gsub("\\|"; "\\\\|") | if . == "" then "—" else . end),
+                tags: (.repositoryTopics.nodes | map("<kbd>\(.topic.name)</kbd>") | join(" ")),
+                n:    (.defaultBranchRef.target.c6m.totalCount // 0)
+              })
+            | map(select(.n > 0 and .name != "star-list" and .name != "github-stats" and .name != "Cygra"))
+            | sort_by(-.n)
+            | map("| [\(.name)](\(.url)) | \(.desc) | \(.tags) |")
+            | .[]
+          ')
+
+          echo "✏️  Rebuilding README.md..."
+
+          TMP="$(mktemp)"
+
+          # Keep everything up to and including the first `---`
+          awk '/^---$/ { print; exit } { print }' "$README" > "$TMP"
+
+          # URL-encode the repo slugs (replace , with %2C)
+          SLUGS_ENCODED=$(printf '%s' "$TOP10_SLUGS" | sed 's/,/%2C/g')
+
+          # Append dynamic sections
+          {
+            printf '\n'
+            printf '## 🌱 Recently Active (Last 6 Months)\n'
+            printf '\n'
+            printf '| Repository | Description | Topics |\n'
+            printf '|:-----------|:------------|:-------|\n'
+            printf '%s\n' "$RECENT_ROWS"
+            printf '\n'
+            printf '## 🔥 Most Active Repositories (Since 2024)\n'
+            printf '\n'
+            printf '| Repository | Description | Topics | Commits |\n'
+            printf '|:-----------|:------------|:-------|--------:|\n'
+            printf '%s\n' "$TOP10_ROWS"
+            printf '\n'
+            printf '%s\n' '---'
+            printf '\n'
+            printf '![](https://raw.githubusercontent.com/Cygra/github-stats/master/generated/overview.svg#gh-dark-mode-only)\n'
+            printf '![](https://raw.githubusercontent.com/Cygra/github-stats/master/generated/overview.svg#gh-light-mode-only)\n'
+            printf '![](https://raw.githubusercontent.com/Cygra/github-stats/master/generated/languages.svg#gh-dark-mode-only)\n'
+            printf '![](https://raw.githubusercontent.com/Cygra/github-stats/master/generated/languages.svg#gh-light-mode-only)\n'
+            printf '\n'
+            printf '[![Star History Chart](https://api.star-history.com/image?repos=%s&type=date&legend=top-left)](https://www.star-history.com/?repos=%s&type=date&legend=top-left)\n' \
+              "$SLUGS_ENCODED" "$SLUGS_ENCODED"
+          } >> "$TMP"
+
+          mv "$TMP" "$README"
+          echo "✅ README.md updated."
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update activity sections [$(date +%Y-%m-%d)]"
+            git push origin main
+            echo "🚀 Pushed to GitHub."
+          fi
