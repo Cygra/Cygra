@@ -11,12 +11,12 @@
 
 | Repository | Description | Topics |
 |:-----------|:------------|:-------|
-| [hand-gesture-whiteboard](https://github.com/Cygra/hand-gesture-whiteboard) | A 3D gesture whiteboard built with MediaPipe Gesture Recognizer, and Three.js. Draw colorful 3D balloon strokes in a fish-tank-like scene using nothing but your hands — no mouse, no touch required. === 基于 MediaPipe 手势识别和 Three.js 构建的 3D 手势白板。只需用手，无需鼠标或触摸，即可在鱼缸式 3D 空间中绘制彩色气球笔触。 | <kbd>mediapipe</kbd> <kbd>nextjs</kbd> <kbd>machinelearning</kbd> <kbd>mediapipe-hand</kbd> <kbd>threejs</kbd> |
+| [hand-gesture-whiteboard](https://github.com/Cygra/hand-gesture-whiteboard) | A 3D gesture whiteboard built with MediaPipe Gesture Recognizer, and Three.js. Draw colorful 3D balloon strokes in a fish-tank-like scene using nothing but your hands — no mouse, no touch required. === 基于 MediaPipe 手势识别和 Three.js 构建的 3D 手势白板。只需用手，无需鼠标或触摸，即可在鱼缸式 3D 空间中绘制彩色气球笔触。 | <kbd>mediapipe</kbd> <kbd>nextjs</kbd> <kbd>machinelearning</kbd> <kbd>mediapipe-hand</kbd> <kbd>threejs</kbd> <kbd>hand-gesture-recognition</kbd> |
 | [Steeplechase](https://github.com/Cygra/Steeplechase) | 自动跳转知乎、掘金、飞书、微信等等的中间页链接，直达目标地址 | <kbd>browser-extension</kbd> <kbd>extension-chrome</kbd> |
 | [leetcode-agent](https://github.com/Cygra/leetcode-agent) | 自动刷 LeetCode 的 Agent，AI 生成代码并自动提交 |  |
 | [shanghai-vehicle-license-price-trend](https://github.com/Cygra/shanghai-vehicle-license-price-trend) | 沪牌拍卖价格走势（更新到 2026.02） |  |
 | [claude-code-feishu-hooks](https://github.com/Cygra/claude-code-feishu-hooks) | Claude Code 飞书通知 hooks。基于 Claude Code 的 hooks 机制，在任务完成、需要确认等关键节点自动向飞书发送通知卡片。 | <kbd>ai-tools</kbd> <kbd>claude-code</kbd> <kbd>feishu</kbd> <kbd>lark</kbd> |
-| [GlyphBox](https://github.com/Cygra/GlyphBox) | A sleek Chrome Side Panel extension for quickly accessing Unicode characters, converting text into stylized fonts, and managing your favorite glyphs — all without leaving your browser. | <kbd>chrome-extension</kbd> <kbd>copilot</kbd> <kbd>unicode</kbd> <kbd>unicode-characters</kbd> |
+| [GlyphBox](https://github.com/Cygra/GlyphBox) | A sleek Chrome Side Panel extension for quickly accessing Unicode characters, converting text into stylized fonts, and managing your favorite glyphs — all without leaving your browser. | <kbd>chrome-extension</kbd> <kbd>copilot</kbd> <kbd>unicode</kbd> <kbd>unicode-characters</kbd> <kbd>glyphs</kbd> |
 | [claude-code-agent-teams-connect-four](https://github.com/Cygra/claude-code-agent-teams-connect-four) | Let teammates in Claude Code Agent teams play Connect Four with each other. | <kbd>claude-code</kbd> <kbd>agent-teams</kbd> <kbd>connect-four</kbd> <kbd>connectfour-game</kbd> |
 | [claude-code-agent-teams-langrensha](https://github.com/Cygra/claude-code-agent-teams-langrensha) | Let teammates in Claude Code Agent teams play Connect Four with each other. 利用 Claude Code 的 Agent Teams 的能力让 teammates 玩狼人杀。 | <kbd>agent-teams</kbd> <kbd>claude-code</kbd> <kbd>langrensha</kbd> <kbd>werewolf</kbd> <kbd>werewolf-game</kbd> |
 | [google-map-cn-correction](https://github.com/Cygra/google-map-cn-correction) | 修正谷歌地图在中国大陆地区（GCJ-02 坐标系）的偏移。Fix the offset of Goolgle map in mainland China. | <kbd>tempermonkey</kbd> |
@@ -28,12 +28,13 @@
 | [Librarian](https://github.com/Cygra/Librarian) | Chrome Extension for intelligent tab grouping |  |
 | [minimax-usage](https://github.com/Cygra/minimax-usage) | 查询 MiniMax 模型 API 使用量的 Claude Code Skill。 | <kbd>claude-code</kbd> |
 | [skillbox-cli](https://github.com/Cygra/skillbox-cli) | — |  |
+| [elevator](https://github.com/Cygra/elevator) | A fully self-contained, browser-based interactive visualization of elevator scheduling algorithms.  完全自包含的浏览器端交互式电梯调度算法可视化工具。 | <kbd>algorithms</kbd> <kbd>elevator</kbd> <kbd>elevator-simulation</kbd> <kbd>html</kbd> <kbd>html-css-javascript</kbd> |
 
 ## 🔥 Most Active Repositories (Since 2024)
 
 | Repository | Description | Topics | Commits |
 |:-----------|:------------|:-------|--------:|
-| [hand-gesture-whiteboard](https://github.com/Cygra/hand-gesture-whiteboard) | A 3D gesture whiteboard built with MediaPipe Gesture Recognizer, and Three.js. Draw colorful 3D balloon strokes in a fish-tank-like scene using nothing but your hands — no mouse, no touch required. === 基于 MediaPipe 手势识别和 Three.js 构建的 3D 手势白板。只需用手，无需鼠标或触摸，即可在鱼缸式 3D 空间中绘制彩色气球笔触。 | <kbd>mediapipe</kbd> <kbd>nextjs</kbd> <kbd>machinelearning</kbd> <kbd>mediapipe-hand</kbd> <kbd>threejs</kbd> | **43** |
+| [hand-gesture-whiteboard](https://github.com/Cygra/hand-gesture-whiteboard) | A 3D gesture whiteboard built with MediaPipe Gesture Recognizer, and Three.js. Draw colorful 3D balloon strokes in a fish-tank-like scene using nothing but your hands — no mouse, no touch required. === 基于 MediaPipe 手势识别和 Three.js 构建的 3D 手势白板。只需用手，无需鼠标或触摸，即可在鱼缸式 3D 空间中绘制彩色气球笔触。 | <kbd>mediapipe</kbd> <kbd>nextjs</kbd> <kbd>machinelearning</kbd> <kbd>mediapipe-hand</kbd> <kbd>threejs</kbd> <kbd>hand-gesture-recognition</kbd> | **43** |
 | [shanghai-vehicle-license-price-trend](https://github.com/Cygra/shanghai-vehicle-license-price-trend) | 沪牌拍卖价格走势（更新到 2026.02） |  | **23** |
 | [minute-repeater-online](https://github.com/Cygra/minute-repeater-online) | Enjoy the pleasure of minute repeater online! 在网页上享受三问腕表的乐趣。 |  | **20** |
 | [Steeplechase](https://github.com/Cygra/Steeplechase) | 自动跳转知乎、掘金、飞书、微信等等的中间页链接，直达目标地址 | <kbd>browser-extension</kbd> <kbd>extension-chrome</kbd> | **19** |
