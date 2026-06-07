@@ -32,7 +32,7 @@
 | Repository | Description | Topics | Commits |
 |:-----------|:------------|:-------|--------:|
 | [hand-gesture-whiteboard](https://github.com/Cygra/hand-gesture-whiteboard) | A 3D gesture whiteboard built with MediaPipe Gesture Recognizer, and Three.js. Draw colorful 3D balloon strokes in a fish-tank-like scene using nothing but your hands — no mouse, no touch required. === 基于 MediaPipe 手势识别和 Three.js 构建的 3D 手势白板。只需用手，无需鼠标或触摸，即可在鱼缸式 3D 空间中绘制彩色气球笔触。 | <kbd>mediapipe</kbd> <kbd>nextjs</kbd> <kbd>machinelearning</kbd> <kbd>mediapipe-hand</kbd> <kbd>threejs</kbd> <kbd>hand-gesture-recognition</kbd> | **43** |
-| [shanghai-vehicle-license-price-trend](https://github.com/Cygra/shanghai-vehicle-license-price-trend) | 沪牌拍卖价格走势（更新到 2026.02） |  | **23** |
+| [shanghai-vehicle-license-price-trend](https://github.com/Cygra/shanghai-vehicle-license-price-trend) | 沪牌拍卖价格走势（更新到 2026.02） |  | **24** |
 | [minute-repeater-online](https://github.com/Cygra/minute-repeater-online) | Enjoy the pleasure of minute repeater online! 在网页上享受三问腕表的乐趣。 |  | **20** |
 | [Steeplechase](https://github.com/Cygra/Steeplechase) | 自动跳转知乎、掘金、飞书、微信等等的中间页链接，直达目标地址 | <kbd>browser-extension</kbd> <kbd>extension-chrome</kbd> | **19** |
 | [wechat-article-dl](https://github.com/Cygra/wechat-article-dl) | 微信公众号文章下载，生成图片保存到本地。图形化操作，无需登录，纯本地运行。 \\| Download Wechat Official Accounts article as jpeg file. | <kbd>nodejs</kbd> <kbd>puppeteer</kbd> <kbd>vite</kbd> <kbd>wechat</kbd> | **16** |
