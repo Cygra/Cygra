@@ -21,9 +21,9 @@
 | [claude-code-agent-teams-connect-four](https://github.com/Cygra/claude-code-agent-teams-connect-four) | Let teammates in Claude Code Agent teams play Connect Four with each other. | <kbd>claude-code</kbd> <kbd>agent-teams</kbd> <kbd>connect-four</kbd> <kbd>connectfour-game</kbd> |
 | [claude-code-agent-teams-langrensha](https://github.com/Cygra/claude-code-agent-teams-langrensha) | Let teammates in Claude Code Agent teams play Connect Four with each other. 利用 Claude Code 的 Agent Teams 的能力让 teammates 玩狼人杀。 | <kbd>agent-teams</kbd> <kbd>claude-code</kbd> <kbd>langrensha</kbd> <kbd>werewolf</kbd> <kbd>werewolf-game</kbd> |
 | [aizer](https://github.com/Cygra/aizer) | Claude Code skill that injects signs of AI-generated writing from text |  |
-| [profile-calendar](https://github.com/Cygra/profile-calendar) | Put the current date on your github profile!  |  |
 | [claude-code-agent-teams-tic-tac-toe](https://github.com/Cygra/claude-code-agent-teams-tic-tac-toe) | Let teammates in Claude Code Agent teams play Tic Tac Toe with each other. | <kbd>claude-code</kbd> <kbd>agent-teams</kbd> <kbd>tic-tac-toe</kbd> <kbd>tictactoe-game</kbd> |
 | [minute-repeater-online](https://github.com/Cygra/minute-repeater-online) | Enjoy the pleasure of minute repeater online! 在网页上享受三问腕表的乐趣。 |  |
+| [profile-calendar](https://github.com/Cygra/profile-calendar) | Put the current date on your github profile!  |  |
 | [minimax-usage](https://github.com/Cygra/minimax-usage) | 查询 MiniMax 模型 API 使用量的 Claude Code Skill。 | <kbd>claude-code</kbd> |
 | [skillbox-cli](https://github.com/Cygra/skillbox-cli) | — |  |
 
