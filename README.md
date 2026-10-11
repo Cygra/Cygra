@@ -13,6 +13,7 @@
 |:-----------|:------------|:-------|
 | [aizer](https://github.com/Cygra/aizer) | Claude Code skill that injects signs of AI-generated writing from text |  |
 | [shanghai-vehicle-license-price-trend](https://github.com/Cygra/shanghai-vehicle-license-price-trend) | 沪牌拍卖价格走势（更新到 2026.02） |  |
+| [skillbox-cli](https://github.com/Cygra/skillbox-cli) | — |  |
 | [elevator](https://github.com/Cygra/elevator) | A fully self-contained, browser-based interactive visualization of elevator scheduling algorithms.  完全自包含的浏览器端交互式电梯调度算法可视化工具。 | <kbd>algorithms</kbd> <kbd>elevator</kbd> <kbd>elevator-simulation</kbd> <kbd>html</kbd> <kbd>html-css-javascript</kbd> |
 
 ## 🔥 Most Active Repositories (Since 2024)
