@@ -11,16 +11,15 @@
 
 | Repository | Description | Topics |
 |:-----------|:------------|:-------|
-| [aizer](https://github.com/Cygra/aizer) | Claude Code skill that injects signs of AI-generated writing from text |  |
 | [shanghai-vehicle-license-price-trend](https://github.com/Cygra/shanghai-vehicle-license-price-trend) | 沪牌拍卖价格走势（更新到 2026.02） |  |
-| [skillbox-cli](https://github.com/Cygra/skillbox-cli) | — |  |
-| [elevator](https://github.com/Cygra/elevator) | A fully self-contained, browser-based interactive visualization of elevator scheduling algorithms.  完全自包含的浏览器端交互式电梯调度算法可视化工具。 | <kbd>algorithms</kbd> <kbd>elevator</kbd> <kbd>elevator-simulation</kbd> <kbd>html</kbd> <kbd>html-css-javascript</kbd> |
+| [hand-gesture-whiteboard](https://github.com/Cygra/hand-gesture-whiteboard) | A 3D gesture whiteboard built with MediaPipe Gesture Recognizer, and Three.js. Draw colorful 3D balloon strokes in a fish-tank-like scene using nothing but your hands — no mouse, no touch required. === 基于 MediaPipe 手势识别和 Three.js 构建的 3D 手势白板。只需用手，无需鼠标或触摸，即可在鱼缸式 3D 空间中绘制彩色气球笔触。 | <kbd>mediapipe</kbd> <kbd>nextjs</kbd> <kbd>machinelearning</kbd> <kbd>mediapipe-hand</kbd> <kbd>threejs</kbd> <kbd>hand-gesture-recognition</kbd> |
+| [touge](https://github.com/Cygra/touge) | 在地图上探索行政区或地理范围内的公路最高候选点，基于 OpenStreetMap 与 DEM。 |  |
 
 ## 🔥 Most Active Repositories (Since 2024)
 
 | Repository | Description | Topics | Commits |
 |:-----------|:------------|:-------|--------:|
-| [hand-gesture-whiteboard](https://github.com/Cygra/hand-gesture-whiteboard) | A 3D gesture whiteboard built with MediaPipe Gesture Recognizer, and Three.js. Draw colorful 3D balloon strokes in a fish-tank-like scene using nothing but your hands — no mouse, no touch required. === 基于 MediaPipe 手势识别和 Three.js 构建的 3D 手势白板。只需用手，无需鼠标或触摸，即可在鱼缸式 3D 空间中绘制彩色气球笔触。 | <kbd>mediapipe</kbd> <kbd>nextjs</kbd> <kbd>machinelearning</kbd> <kbd>mediapipe-hand</kbd> <kbd>threejs</kbd> <kbd>hand-gesture-recognition</kbd> | **43** |
+| [hand-gesture-whiteboard](https://github.com/Cygra/hand-gesture-whiteboard) | A 3D gesture whiteboard built with MediaPipe Gesture Recognizer, and Three.js. Draw colorful 3D balloon strokes in a fish-tank-like scene using nothing but your hands — no mouse, no touch required. === 基于 MediaPipe 手势识别和 Three.js 构建的 3D 手势白板。只需用手，无需鼠标或触摸，即可在鱼缸式 3D 空间中绘制彩色气球笔触。 | <kbd>mediapipe</kbd> <kbd>nextjs</kbd> <kbd>machinelearning</kbd> <kbd>mediapipe-hand</kbd> <kbd>threejs</kbd> <kbd>hand-gesture-recognition</kbd> | **47** |
 | [shanghai-vehicle-license-price-trend](https://github.com/Cygra/shanghai-vehicle-license-price-trend) | 沪牌拍卖价格走势（更新到 2026.02） |  | **28** |
 | [minute-repeater-online](https://github.com/Cygra/minute-repeater-online) | Enjoy the pleasure of minute repeater online! 在网页上享受三问腕表的乐趣。 |  | **20** |
 | [Steeplechase](https://github.com/Cygra/Steeplechase) | 自动跳转知乎、掘金、飞书、微信等等的中间页链接，直达目标地址 | <kbd>browser-extension</kbd> <kbd>extension-chrome</kbd> | **19** |
